@@ -1,4 +1,4 @@
-# Exploratory-Data-Analysis
+# Exploratory Data Analysis (EDA)
 It is very important to know our data very well before applying it to build the model. Initially, we don't know anything about the data, so we need to explore our data very well.
 *Exploratory Data Analysis* or *EDA* is a task of analyzing data using multiple important and useful tools, different statistical methods, visualization plots and many other important
 techniques like linear regression, rule based methods etc. in order to get the complete understanding about the data. It is the first and very important step of any kind of data modeling 
@@ -8,7 +8,7 @@ and model building.
  1. Get the no. of features (columns) and no. of records (rows).
  2. Get features (independent variables) name.
  3. Get unique class (dependent variables) names.
- 4. Get no. of feture values or dataponits belongs to each class.
+ 4. Get no. of feature values or dataponits belongs to each class.
  5. Check whether the dataset is balanced or not.
  
  ## Statistical Methods:
