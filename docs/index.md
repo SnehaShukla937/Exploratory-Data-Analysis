@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+# Exploratory Data Analysis (EDA)
+It is very important to know our data very well before applying it to build the model. Initially, we don't know anything about the data, so we need to explore our data very well.
+*Exploratory Data Analysis* or *EDA* is a task of analyzing data using multiple important and useful tools, different statistical methods, visualization plots and many other important
+techniques like linear regression, rule based methods etc. in order to get the complete understanding about the data. It is the first and very important step of any kind of data modeling 
+and model building.
 
-You can use the [editor on GitHub](https://github.com/SnehaShukla937/Exploratory-Data-Analysis/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SnehaShukla937/Exploratory-Data-Analysis/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Pre-Analysis part:
+ 1. Get the no. of features (columns) and no. of records (rows).
+ 2. Get features (independent variables) name.
+ 3. Get unique class (dependent variables) names.
+ 4. Get no. of feature values or dataponits belongs to each class.
+ 5. Check whether the dataset is balanced or not.
+ 
+ ## Statistical Methods:
+ 1. Mean
+ 2. Standard Deviation
+ 3. Median
+ 4. Quantile & Percentile
+ 5. Median Absolute Deviation (MAD)
+ 
+ ##  Analysis between variables:
+ 1. Univariate Analysis
+ 2. Bivariate Analysis
+ 3. Multivariate Analysis
+ 
+ ## Multiple plots:
+ 1. Histogram Plot
+ 2. Probability Density Function (PDF) and Cumulative Distribtion Function (CDF)
+ 3. Scatter Plot
+ 4. Pair Plot
+ 5. Box Plot
+ 6. Violin Plot
+ 7. Contour Plot
+ 8. Dist Plot
+ 9. Joint Plot
+ 
+ ## Python packages used for EDA:
+ 1. NumPy
+ 2. Seaborn
+ 3. Matplotlib
+ 4. Pandas
